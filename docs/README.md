@@ -2,16 +2,8 @@
 Contents:
 
 <html>
-    <head>
-        <script src="jquery.js"><script/>
-        <script>
-        $(function() {
-            $("#includedContent").load("index.html");
-        });
-        <script/>
-    <head/>
     <body>
-        <div id="includedContent"><div/>
+        <object type="text/html" data="index.html"></object>
     <body/>
 <html/>
             
